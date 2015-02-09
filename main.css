@@ -6,6 +6,9 @@ body {
     background: none
 }
 
+.description {
+    border: 2px solid black;
+}
 
 * {font-family: 'Arvo', serif;}
 
