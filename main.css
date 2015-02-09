@@ -7,7 +7,7 @@ body {
 }
 
 .description {
-    border: 2px solid black;
+    border: 2px solid #FF6600;
 }
 
 * {font-family: 'Arvo', serif;}
