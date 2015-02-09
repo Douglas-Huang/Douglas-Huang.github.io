@@ -6,6 +6,10 @@ body {
     background-color: #ff6600;
 }
 
+.portfolio {
+    text-align:center;
+}
+
 .description {
     border: 2px solid #FF6600;
 }
@@ -14,6 +18,12 @@ body {
     font-family: 'Arvo', serif;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
 li {
     display: inline;
 }
