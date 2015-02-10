@@ -8,7 +8,7 @@ body { text-align: center; background-image: url("purple_poly.jpg"); }
 
 .jumbotron .lead, .jumbotron a { text-align: left; font-family: 'Cabin', sans-serif; }
 
-.col-centered{ float: none; margin: 0 auto; }
+.col-centered { float: none; margin: 0 auto; }
 
 ul { margin: 0; padding: 0; list-style-type: none; text-align: center; padding-bottom: 2em; }
 
