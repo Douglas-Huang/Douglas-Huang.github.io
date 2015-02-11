@@ -8,14 +8,12 @@ body { text-align: center; background-image: url("purple_poly.jpg"); }
 
 .jumbotron .lead, .jumbotron a { text-align: left; font-family: 'Cabin', sans-serif; }
 
-.resume .lead a { text-decoration: underline; font-family: 'Cabin', sans-serif;  }
+.resume .lead a { text-decoration: underline; font-family: 'Cabin', sans-serif; }
 
 ul { margin: auto; padding: 0; list-style-type: none; text-align: center; padding-bottom: 2em; max-width: 50em }
 
-@media (max-width: 550px) {  li { display: inline-block; padding: 0.5em; } }
-@media (max-width: 768px) { .jumbotron { padding-top: 1em; } .jumbotron .lead { text-align: center; }  body { background-image: url("mobile_background.png") } } 
-
 li { display: inline-block; }
 
+@media (max-width: 768px) { .jumbotron .lead { text-align: center; } .resume .lead a { font-size: 125%; } } 
 
-
+@media (max-width: 550px) {  .jumbotron { padding-top: 1em; } li { display: inline-block; padding: 0.5em; } body { background-image: none; } }
