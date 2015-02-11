@@ -2,17 +2,18 @@ body { text-align: center; background-image: url("purple_poly.jpg"); }
 
 * { font-family: 'Arvo', serif; }
 
-.jumbotron { background: none; padding-bottom: 0; }
+.jumbotron { background: none; padding-bottom: 2em; padding-top: 8em; max-width: 60em; margin: auto; }
 
-.jumbotron p { text-align: center; }
+.jumbotron p { text-align: center; padding-bottom: 1em; }
 
 .jumbotron .lead, .jumbotron a { text-align: left; font-family: 'Cabin', sans-serif; }
 
-.col-centered { float: none; margin: 0 auto; }
+ul { margin: auto; padding: 0; list-style-type: none; text-align: center; padding-bottom: 2em; max-width: 50em }
 
-ul { margin: 0; padding: 0; list-style-type: none; text-align: center; padding-bottom: 2em; }
+@media (max-width: 500px) {  li { display: inline-block; padding: 0.5em; } }
+@media (max-width: 768px) { .jumbotron .lead { text-align: center; } } 
 
-li { display: inline; }
+li { display: inline-block; }
 
 
 
