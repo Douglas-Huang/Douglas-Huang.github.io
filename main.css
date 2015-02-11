@@ -11,7 +11,7 @@ body { text-align: center; background-image: url("purple_poly.jpg"); }
 ul { margin: auto; padding: 0; list-style-type: none; text-align: center; padding-bottom: 2em; max-width: 50em }
 
 @media (max-width: 550px) {  li { display: inline-block; padding: 0.5em; } }
-@media (max-width: 768px) { .jumbotron .lead { text-align: center; } } 
+@media (max-width: 768px) { .jumbotron { padding-top: 1em; } .jumbotron .lead { text-align: center; } } 
 
 li { display: inline-block; }
 
