@@ -8,12 +8,16 @@ body { text-align: center; }
 
 .jumbotron .lead, .jumbotron a { text-align: left; font-family: 'Cabin', sans-serif; }
 
-.resume .lead a { text-decoration: underline; font-family: 'Cabin', sans-serif; }
+.jumbotron a { color: #A4A4A4; }
 
-ul { margin: auto; padding: 0; list-style-type: none; text-align: center; padding-bottom: 2em; max-width: 50em }
+.resume { padding-top: 7em; }
 
-li { display: inline-block; }
+.resume .lead a { font-family: 'Cabin', sans-serif; font-size: x-large; }
 
-@media (max-width: 768px) { .jumbotron .lead { text-align: center; } .resume .lead a { font-size: 125%; } } 
+a { color: inherit; } 
 
-@media (max-width: 550px) {  .jumbotron { padding-top: 1em; } li { display: inline-block; padding: 0.5em; } body { background-image: none; } }
+.closing { padding-top: 10em;}
+
+@media (max-width: 768px) { .jumbotron .lead { text-align: center; } } 
+
+@media (max-width: 550px) {  .jumbotron { padding-top: 1em; } li { display: inline-block; padding: 0.5em; } }
