@@ -2,22 +2,22 @@ body { text-align: center; }
 
 * { font-family: 'Arvo', serif; }
 
-.jumbotron { background: none; padding-bottom: 3em; padding-top: 6em; max-width: 60em; margin: auto; }
+.jumbotron { background: none; padding-bottom: 5em; padding-top: 6em; max-width: 60em; margin: auto; }
 
 .jumbotron p { text-align: center; padding-bottom: 1em; }
 
 .jumbotron .lead, .jumbotron a { text-align: left; font-family: 'Cabin', sans-serif; }
 
-.jumbotron a { color: #A4A4A4; }
+.jumbotron a { border-bottom: 1px solid #BDBDBD; }
 
 .resume { padding-top: 7em; }
 
-.resume .lead a { font-family: 'Cabin', sans-serif; font-size: x-large; }
+.resume .lead a { font-family: 'Cabin', sans-serif; font-size: large; }
 
 a { color: inherit; } 
 
-.closing { padding-top: 10em;}
+.jumbotron a:hover { text-decoration: none; border-bottom: none; background-color: #E6E6E6; color: inherit; }
 
 @media (max-width: 768px) { .jumbotron .lead { text-align: center; } } 
 
-@media (max-width: 550px) {  .jumbotron { padding-top: 1em; } li { display: inline-block; padding: 0.5em; } }
+@media (max-width: 550px) {  .jumbotron { padding-top: 1em; } }
