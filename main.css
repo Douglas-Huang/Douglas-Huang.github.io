@@ -2,7 +2,7 @@ body { text-align: center; }
 
 * { font-family: 'Arvo', serif; }
 
-.jumbotron { background: none; padding-bottom: 5em; padding-top: 6em; max-width: 60em; margin: auto; }
+.jumbotron { background: none; padding-bottom: 3em; padding-top: 6em; max-width: 60em; margin: auto; }
 
 .jumbotron p { text-align: center; padding-bottom: 1em; }
 
@@ -12,7 +12,7 @@ body { text-align: center; }
 
 .container-icon { max-width: 55em; margin: auto; }
 
-.resume { padding-top: 4em; }
+.resume { padding-top: 5em; }
 
 .resume .lead a { font-family: 'Cabin', sans-serif; font-size: large; }
 
