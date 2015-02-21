@@ -10,7 +10,9 @@ body { text-align: center; }
 
 .jumbotron a { border-bottom: 1px solid #BDBDBD; }
 
-.resume { padding-top: 5em; }
+.container-icon { max-width: 55em; margin: auto; }
+
+.resume { padding-top: 4em; }
 
 .resume .lead a { font-family: 'Cabin', sans-serif; font-size: large; }
 
