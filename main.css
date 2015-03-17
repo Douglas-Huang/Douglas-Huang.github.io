@@ -20,4 +20,4 @@ body { text-align: center; }
 
 .jumbotron a:hover { opacity: 0.5; }
 
-@media (max-width: 768px) { .jumbotron .lead { text-align: center; } .jumbotron p { padding-left: none; } }
+@media (max-width: 768px) { .jumbotron .lead { text-align: center; } .jumbotron p { padding-left: 0em; } }
