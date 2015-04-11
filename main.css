@@ -1,25 +1,23 @@
 body { text-align: center; }
 
-* { font-family: 'Arvo', serif; }
+* { font-family: "Raleway"; }
 
-.jumbotron { background: none; padding-bottom: 3em; padding-top: 6em; max-width: 60em; margin: auto; }
+.container { margin: auto; height: 100%; width: 100%; }
 
-.jumbotron p { text-align: center; padding-bottom: 1em; }
+.headshot { margin: auto; width: 200px; height: 200px; background: url("headshot_cropped.png"); background-size: cover; display: block; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; }
 
-.jumbotron .lead, .jumbotron a { text-align: left; font-family: 'Cabin', sans-serif; }
+.jumbotron { height: 100%; width: 100%; background: none; max-width: 60em; margin: auto; }
 
-.jumbotron a { border-bottom: 1px solid #BDBDBD; }
+.jumbotron h2 { padding-bottom: 0.5em; }
 
-.container-icon { max-width: 55em; margin: auto; }
+.jumbotron p { text-align: left; padding-bottom: 1em; margin: auto; padding-left: 1em; }
 
-.resume { padding-top: 5em; }
+.container-icon { margin: auto; height:100%; width:100%; }
 
-.resume .lead a { font-family: 'Cabin', sans-serif; font-size: large; }
+.jumbotron a:hover, .jumbotron a:visited, .jumbotron a:active, .jumbotron a:link { text-decoration: none; border-bottom: none; color: #009fff; }
 
-a { color: inherit; } 
+.jumbotron a { color: #009fff; opacity: 1; transition: opacity .15s ease-in-out; -moz-transition: opacity .15s ease-in-out; -webkit-transition: opacity .15s ease-in-out; }
 
-.jumbotron a:hover { text-decoration: none; border-bottom: none; background-color: #E6E6E6; color: inherit; }
+.jumbotron a:hover { opacity: 0.5; }
 
-@media (max-width: 768px) { .jumbotron .lead { text-align: center; } } 
-
-@media (max-width: 550px) {  .jumbotron { padding-top: 1em; } }
+@media (max-width: 768px) { .jumbotron .lead { text-align: center; } .jumbotron p { padding-left: 0em; } }
