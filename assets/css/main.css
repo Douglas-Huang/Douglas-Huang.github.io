@@ -1,0 +1,77 @@
+body { 
+	text-align: center; 
+}
+
+* { 
+	font-family: "Raleway"; 
+}
+
+.container-main, .navbar-main, .container-main .jumbotron, .jumbotron, .lead, .container-about, .container-contact, .container-icon { 
+	margin: auto; 
+	height: 100%; 
+	width: 100%; 
+	text-align: center;
+	background: none;
+}
+
+.container-main {
+	position: absolute;
+	top: 25%;
+}
+
+.headshot { 
+	margin: auto; 
+	width: 150px; 
+	height: 150px; 
+	background: url("../images/headshot.png"); 
+	background-size: cover; 
+	display: block; 
+	border-radius: 75px; 
+	-webkit-border-radius: 75px; 
+	-moz-border-radius: 75px; 
+}
+
+.navbar-main {
+	max-width: 30em;
+	height: 5em;
+}
+
+.container-main .lead {
+	text-align: center;
+	max-width: 100%;
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-bottom: 1em;
+}
+
+.container-about, .container-contact, .container-projects, .navbar {
+	padding-top: 12em;
+	display: none;
+}
+
+.container-icon {
+	padding-top: 2em;
+	max-width: 50em;
+}
+.lead {
+	text-align: left;
+	max-width: 36em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+a:hover, a:visited, a:active, a:link { 
+	text-decoration: none; 
+	border-bottom: none; 
+}
+
+a { 
+	opacity: 1; 
+	transition: opacity .15s ease-in-out; 
+	-moz-transition: opacity .15s ease-in-out; 
+	-webkit-transition: opacity .15s ease-in-out; 
+}
+
+a:hover { 
+	opacity: 0.5; 
+}
