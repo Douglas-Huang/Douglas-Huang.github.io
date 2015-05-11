@@ -16,7 +16,7 @@ body {
 
 .container-main {
 	position: absolute;
-	top: 25%;
+	top: 20%;
 }
 
 .headshot { 
@@ -34,6 +34,8 @@ body {
 .navbar-main {
 	max-width: 30em;
 	height: 5em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .container-main .lead {

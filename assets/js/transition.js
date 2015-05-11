@@ -36,5 +36,5 @@ function goHome() {
 	$(".container-main .lead").slideDown();
 	$(".headshot, .container-main .lead").animate({opacity: 100},200);
 	$(".headshot").slideDown();
-	$(".container-main").animate({top:"25%"});
+	$(".container-main").animate({top:"20%"});
 }
