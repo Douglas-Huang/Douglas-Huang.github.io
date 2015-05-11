@@ -1,8 +1,5 @@
 body { 
 	text-align: center; 
-}
-
-* { 
 	font-family: "Raleway"; 
 }
 
@@ -46,7 +43,7 @@ body {
 	padding-bottom: 1em;
 }
 
-.container-about, .container-contact, .container-projects, .navbar {
+.container-about, .container-contact, .container-projects {
 	padding-top: 12em;
 	display: none;
 }

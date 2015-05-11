@@ -26,15 +26,13 @@ $(document).ready(function(){
 });
 
 function slideHeader() {
-	$(".container-main .lead").slideUp();
 	$(".headshot, .container-main .lead").animate({opacity: 0},200);
-	$(".headshot").slideUp();
-	$(".container-main").animate({top:"20pt"});
+	$(".headshot, .container-main .lead").slideUp();
+	$(".container-main").animate({top:"2em"});
 };
 
 function goHome() {
-	$(".container-main .lead").slideDown();
 	$(".headshot, .container-main .lead").animate({opacity: 100},200);
-	$(".headshot").slideDown();
+	$(".headshot, .container-main .lead").slideDown();
 	$(".container-main").animate({top:"20%"});
 }
