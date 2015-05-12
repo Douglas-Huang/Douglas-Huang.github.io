@@ -73,4 +73,9 @@ a {
 
 a:hover { 
 	opacity: 0.5; 
+	cursor: pointer;
+}
+
+#home:hover {
+	cursor: pointer;
 }
