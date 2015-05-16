@@ -5,8 +5,7 @@ body {
 
 .container-main, .navbar-main, .container-main .jumbotron, .jumbotron, .lead, .container-about, .container-contact, .container-icon { 
 	margin: auto; 
-	height: 100%; 
-	width: 100%; 
+	width: 100%;
 	text-align: center;
 	background: none;
 }
@@ -37,7 +36,6 @@ body {
 
 .container-main .lead {
 	text-align: center;
-	max-width: 100%;
 	padding-left: 0em;
 	padding-right: 0em;
 	padding-bottom: 1em;
@@ -55,7 +53,7 @@ body {
 .lead {
 	text-align: left;
 	max-width: 36em;
-	padding-left: 1em;
+	padding-left: 2em;
 	padding-right: 1em;
 }
 
@@ -79,3 +77,5 @@ a:hover {
 #home:hover {
 	cursor: pointer;
 }
+
+@media (max-width: 768px) { .lead { padding-left: 1.5em; } }
