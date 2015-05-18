@@ -19,7 +19,7 @@ body {
 	margin: auto; 
 	width: 150px; 
 	height: 150px; 
-	background: url("../images/headshot.png"); 
+	background: url("../images/headshot.jpg"); 
 	background-size: cover; 
 	display: block; 
 	border-radius: 75px; 
@@ -78,4 +78,4 @@ a:hover {
 	cursor: pointer;
 }
 
-@media (max-width: 768px) { .lead { padding-left: 1.5em; } }
+@media (max-width: 768px) { .lead { padding-left: 1.25em; } }
