@@ -3,7 +3,7 @@ body {
 	font-family: "Raleway"; 
 }
 
-.container-main, .navbar-main, .container-main .jumbotron, .jumbotron, .lead, .container-about, .container-contact, .container-icon { 
+.container-main, .navbar-main, .container-main .jumbotron, .jumbotron, .lead, .container-about, .container-contact, .container-icon, .vital-stats { 
 	margin: auto; 
 	width: 100%;
 	text-align: center;
@@ -34,6 +34,19 @@ body {
 	padding-right: 1em;
 }
 
+.vital-stats {
+	max-width: 30em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.lead {
+	text-align: left;
+	max-width: 36em;
+	padding-left: 2em;
+	padding-right: 1em;
+}
+
 .container-main .lead {
 	text-align: center;
 	padding-left: 0em;
@@ -46,15 +59,25 @@ body {
 	display: none;
 }
 
+.container-projects {
+	max-width: 36em;
+	margin: auto;
+	text-align: left;
+}
+
+.container-projects img {
+	max-height: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+
+.prj-text {
+	font-size: 1.25em;
+}
+
 .container-icon {
 	padding-top: 2em;
 	max-width: 50em;
-}
-.lead {
-	text-align: left;
-	max-width: 36em;
-	padding-left: 2em;
-	padding-right: 1em;
 }
 
 a:hover, a:visited, a:active, a:link { 
@@ -78,4 +101,4 @@ a:hover {
 	cursor: pointer;
 }
 
-@media (max-width: 768px) { .lead { padding-left: 1.25em; } }
+@media (max-width: 768px) { .lead { padding-left: 1.25em; } .container-projects { padding-top: 10em; padding-left: 0.5em; padding-right: 0.5em; } .prj-text { font-size: 1em; } }
