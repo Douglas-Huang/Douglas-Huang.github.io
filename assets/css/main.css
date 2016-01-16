@@ -59,6 +59,10 @@ body {
 	display: none;
 }
 
+.container-about {
+	padding-left: 3em;
+}
+
 .container-projects {
 	max-width: 36em;
 	margin: auto;
@@ -101,4 +105,4 @@ a:hover {
 	cursor: pointer;
 }
 
-@media (max-width: 768px) { .lead { padding-left: 1.25em; } .container-projects { padding-top: 10em; padding-left: 0.5em; padding-right: 0.5em; } .prj-text { font-size: 1em; } }
+@media (max-width: 768px) { .lead { padding-left: 1.25em; } .container-about { padding-left: 1.5em; } .container-projects { padding-top: 10em; padding-left: 0.5em; padding-right: 0.5em; } .prj-text { font-size: 1em; } }
